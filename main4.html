@@ -1,0 +1,254 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The Bermo Library | Study Center</title>
+
+    <meta
+      name="description"
+      content="The Bermo Library provides a quiet, comfortable and distraction-free study environment with AC, WiFi and personal desks." />
+    <meta
+      name="keywords"
+      content="Bermo Library, study center near me, quiet study room, AC library, wifi study space, education center" />
+    <meta name="robots" content="index, follow" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+
+    <style>
+      :root {
+        --primary: #2c7be5;
+        --dark: #1f2d3d;
+        --light: #f4f7fb;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: var(--light);
+      }
+
+      /* Header */
+      header {
+        background: white;
+        padding: 15px;
+        text-align: center;
+        font-weight: 600;
+        color: var(--primary);
+      }
+
+      /* Hero */
+      .hero {
+        background: linear-gradient(to right, #2c7be5, #4da3ff);
+        color: white;
+        text-align: center;
+        padding: 70px 15px;
+      }
+
+      /* Quote */
+      .quote {
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        border-left: 4px solid var(--primary);
+        border-radius: 10px;
+        text-align: center;
+        font-style: italic;
+      }
+
+      /* Section */
+      .section {
+        padding: 40px 15px;
+        text-align: center;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .card {
+        background: white;
+        margin: 8px;
+        padding: 15px;
+        width: 160px;
+        border-radius: 8px;
+      }
+
+      /* Gallery */
+      .gallery-section {
+        display: none; /* hidden by default */
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      /* Reviews */
+      .review {
+        background: white;
+        margin: 15px auto;
+        padding: 15px;
+        max-width: 500px;
+        border-radius: 10px;
+        text-align: left;
+      }
+
+      .review img,
+      .review video {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 10px;
+      }
+
+      /* Footer */
+      footer {
+        background: var(--dark);
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>📘 The Bermo Library</header>
+
+    <section class="hero">
+      <h1>Focus. Discipline. Results.</h1>
+      <p>A quiet and comfortable study space designed for serious students.</p>
+    </section>
+
+    <section class="quote">
+      “Success becomes easier when your environment supports your focus.”
+    </section>
+
+    <section class="section">
+      <h2>About Us</h2>
+      <p>
+        The Bermo Library provides a peaceful environment where students can
+        study without distraction. Being around focused individuals helps you
+        stay consistent and productive.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Facilities</h2>
+      <div class="cards">
+        <div class="card">Air Conditioned Rooms</div>
+        <div class="card">Personal Study Desk</div>
+        <div class="card">High-Speed WiFi</div>
+        <div class="card">Clean Water</div>
+        <div class="card">Power Points</div>
+        <div class="card">Silent Environment</div>
+      </div>
+    </section>
+
+    <!-- Gallery (Auto Hide if Empty) -->
+    <section class="section gallery-section" id="gallerySection">
+      <h2>Gallery</h2>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section">
+      <h2>Student Reviews</h2>
+
+      <div class="review">
+        ⭐⭐⭐⭐⭐ <br />
+        Best place for exam preparation. The environment is excellent 🙏
+        <video
+          controls
+          src="https://lh3.googleusercontent.com/gpms-cs-s/ABJJf53UGLnqOxKbEk3EQBLTf4MNMu2suTYW2hwfceKoD9nkXUqVudEmwsl2WYsP7nz4Wmo5Vy6Zk6wjOTPdond9pDJoepG84z56MxEdbsJjW770Vn_3SZ9kDWXS7p9OkqIl3kuiiSqD=m18?cpn=Mhi2o9t06t04-Yr1"></video>
+      </div>
+
+      <div class="review">
+        ⭐⭐⭐⭐⭐ <br />
+        Very nice place for study & owners are very polite.
+        <img
+          src="https://lh3.googleusercontent.com/geougc-cs/AMG9lESJrFJw2B3umX__CoExnBBg9igB3X2wUYz4vO6vIpgaiQEHm0VIyx5nOqnN1CLAmuea_tcD1fykSpig_o7WhROOhwyDwuG9vkBh7R4Pi6UV9dg_DFTyjjB3S6bZ2em7WigussNtXA=w600-h450-p" />
+      </div>
+
+      <div class="review">
+        ⭐⭐⭐⭐⭐ <br />
+        Very good library. Teachers are friendly and helpful ❤️
+      </div>
+
+      <div class="review">
+        ⭐⭐⭐⭐⭐ <br />
+        Best place for study
+        <img
+          src="https://lh3.googleusercontent.com/geougc-cs/AMG9lEQjoHAjqpL8zVjditJ9ztJ8QY-wfmNCK8-evvwtfK73c-zWPZQHFxt26gyezsFiokrn_lmbhJG_QHCreRA8B2NbfFdDNRkyB1pliCpXgDyvsW82oi9EWxEdpk1ScG1-ZpJrVLpvgA=w600-h450-p" />
+        <video
+          controls
+          src="https://lh3.googleusercontent.com/gpms-cs-s/ABJJf53SSP8_I8d3ZRF-R-DW7B9Vwv2h4TM96YZSEl-J5kiTQ4iy8_CH2glQ25TrbycfA-WNptwa5Mo8zijlQEP9OyJixlmNyBeBlR2klqsP7_iQIc9LZE3Oo3hRjSjqzkNVjymGyn0=m18?cpn=tKRFsnCFjuGTOsO1"></video>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Location</h2>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5214865274243!2d85.99543747386235!3d23.76443748265918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f415000d3479af%3A0xfc4ccd594e167acb!2sThe%20Bermo%20Library!5e0!3m2!1sen!2sin!4v1777196546413!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <p style="font-size: 14px; margin-top: 10px">
+        Easily accessible location near the main road with nearby food options.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <h2>Contact</h2>
+
+      <p>📞 +91 07258052271</p>
+
+      <p>📍 The Bermo Library, Near Main Road, Bermo</p>
+
+      <p>💬 WhatsApp: +91 07258052271</p>
+    </section>
+
+    <footer>© 2026 The Bermo Library</footer>
+
+    <script>
+      // Add images here (leave empty if none)
+      const images = [];
+
+      // Logic to show/hide gallery
+      if (images.length > 0) {
+        const gallerySection = document.getElementById("gallerySection");
+        const gallery = document.getElementById("gallery");
+
+        gallerySection.style.display = "block";
+
+        images.forEach((src) => {
+          const img = document.createElement("img");
+          img.src = src;
+          gallery.appendChild(img);
+        });
+      }
+    </script>
+  </body>
+</html>
